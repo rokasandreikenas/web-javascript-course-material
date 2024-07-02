@@ -181,17 +181,48 @@ if (value * 3 > 10) {
 
 ###  Užduotys
 
-1. **Užduotis: Kintamieji ir kontrolės sakiniai**
+1. **Užduotis: Kintamieji**
 
-	1.1 **Tikslas**: Parašykite JavaScript programą, kuri įvertina ar asmuo gali balsuoti:
+	1.1 **Tikslas**: Parašykite JavaScript programą, kuri išspausdina kintamųjų reikšmes į konsolę:
+	-	Konsolėje turi būti išspausdintos **3** skirtingo tipo kintamųjų reikšmės: **String**, **Number** ir **Boolean**.
+	
+	1.2 **Instrukcijos**:
+	- Apsibrėžkite 3 skirtingo **tipo** **kintamuosius**. (String, Number, Boolean);
+	- Kiekvieną iš kintamųjų išspausdinkite į konsolę.
+
+	1.3  **Sprendimas**:
+
+	-   [Kintamieji](https://codepen.io/dewitted/pen/WNBVdmX)
+	---
+2. **Užduotis: Kintamieji ir kontrolės sakiniai**
+
+	2.1 **Tikslas**: Parašykite JavaScript programą, kuri įvertina ar asmuo gali balsuoti:
 	-  Asmuo turi būti sulaukęs reikiamo amžiaus. (18 metų)
 	- Asmuo turi būti šalies pilietis.
 		- **Papildomas reikalavimas**: Asmuo šalyje turi gyventi bent 30 dienų.
 	
-	1.2 **Instrukcijos**:
+	2.2 **Instrukcijos**:
 	- Apsibrėžkite **kintamuosius** asmens amžiui, pilietybės statusui, šalyje išgyventų dienų skaičiui.
 	- Panaudokite **if...else** kontrolės sakinius įvertinimui ar asmuo gali balsuoti.
 	- Konsolėje išspausdinkite **if...else** rezultatą.
 	
-	1.3 **Sprendimas**:
+	2.3 **Sprendimas**:
 	- [Kintamieji ir kontrolės sakiniai](https://codepen.io/dewitted/pen/PovMEPw)
+	---
+3. **Užduotis: Kintamieji ir kontrolės sakiniai**
+
+	3.1 **Tikslas**: Parašykite JavaScript programą, kuri įvertintų žmogaus sveikatos riziką, atsižvelgiant į jo amžių, KMI (kūno masės indeksą) ir gyvenimo būdo veiksnius. Programa turėtų suskirstyti sveikatos riziką į skirtingus lygius ir pateikti konkrečius patarimus.
+		
+	3.2 **Instrukcijos**:
+	- Apsibrėžkite kintamuosius `age`, `bmi` ir `smokes`.
+	- Įgyvendinkite if-else logiką su keliais operatoriais, kad nustatytumėte sveikatos rizikos lygį, remdamiesi asmens amžiumi, KMI ir rūkymo statusu.
+		- Maža rizika: Amžius < 30, KMI < 25 ir nerūko.
+		- Vidutinė rizika: Amžius tarp 30 ir 50 (imtinai), KMI tarp 25 ir 30 (neimtinai) ir nerūko.
+		- Didelė rizika: Bet kuris iš šių veiksnių yra teisingas (bet ne visi trys): Amžius > 50, KMI >= 30 arba rūko.
+		- Labai didelė rizika: Visi šie veiksniai yra teisingi: Amžius > 50, KMI >= 30 ir rūko.
+		- Neapibrėžta rizika: Bet kokia kita įvesčių kombinacija.
+	- Savo nuožiūra pateikite patarimus, remiantis sveikatos rizikos lygiu.
+	- Atspausdinkite amžių, KMI, rūkymo statusą, sveikatos rizikos lygį ir patarimus.
+	
+	3.3 **Sprendimas**:
+	- [Kintamieji ir kontrolės sakiniai 2](https://codepen.io/dewitted/pen/JjqgpoP)
