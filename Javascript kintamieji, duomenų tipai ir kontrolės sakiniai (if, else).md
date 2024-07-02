@@ -1,1 +1,0 @@
-Javascript kintamieji first commit
