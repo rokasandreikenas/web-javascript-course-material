@@ -31,9 +31,9 @@ console.log('hi');
 */
 ```
 
-- `var name = "John"`  "**var**" nurodo,  jog apibrėžiamas kintamasis.
+- `const name = "John"`  "**const**" nurodo,  jog apibrėžiamas kintamasis.
 ```javascript
-var name = "John";
+const name = "John";
 console.log(name); //Output: John
 ```
 ![javascript_console_log](https://images4.imagebam.com/5b/b7/fc/MEUFOBO_o.png)
@@ -192,7 +192,7 @@ if (value * 3 > 10) {
 
 	1.3  **Sprendimas**:
 
-	-   [Kintamieji](https://codepen.io/dewitted/pen/WNBVdmX)
+	-   [Kintamieji](https://github.com/rokasandreikenas/web-javascript/commit/21115942d639f27308a7dc9f94c7c4e5557942ea#diff-3b8e7f46e7b263fef319f9df9ba8f96f7b6c6d934824b8aef124008d8ce9d7f3)
 	---
 2. **Užduotis: Kintamieji ir kontrolės sakiniai**
 
@@ -207,7 +207,7 @@ if (value * 3 > 10) {
 	- Konsolėje išspausdinkite **if...else** rezultatą.
 	
 	2.3 **Sprendimas**:
-	- [Kintamieji ir kontrolės sakiniai](https://codepen.io/dewitted/pen/PovMEPw)
+	- [Kintamieji ir kontrolės sakiniai](https://github.com/rokasandreikenas/web-javascript/commit/21115942d639f27308a7dc9f94c7c4e5557942ea#diff-9431ae75f86663bb460b7e0f364ac7063ef4c0efdefb566bc002b74ce734e2f4)
 	---
 3. **Užduotis: Kintamieji ir kontrolės sakiniai**
 
@@ -225,4 +225,4 @@ if (value * 3 > 10) {
 	- Atspausdinkite amžių, KMI, rūkymo statusą, sveikatos rizikos lygį ir patarimus.
 	
 	3.3 **Sprendimas**:
-	- [Kintamieji ir kontrolės sakiniai 2](https://codepen.io/dewitted/pen/JjqgpoP)
+	- [Kintamieji ir kontrolės sakiniai 2](https://github.com/rokasandreikenas/web-javascript/commit/21115942d639f27308a7dc9f94c7c4e5557942ea#diff-8200c3207448f2c392a548ba797366c19a86a81dbcc57ee11d22a2689974154b)
